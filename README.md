@@ -14,9 +14,3 @@ npm roboto?
 
 sass?
 flat icons?
-
-zoom-info bg #f6f9fd
-
-TODO :
-- add back to top
-- add active link
