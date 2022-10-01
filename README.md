@@ -20,3 +20,6 @@ zoom-info bg #f6f9fd
 TODO :
 - add back to top
 - add active link
+
+live at :
+https://portfolio3-work-in-progress.vercel.app/
