@@ -24,4 +24,6 @@ TODO :
 live at :
 https://portfolio3-work-in-progress.vercel.app/
 
-screenShot : <img src="https://vercel.com/0c97561f-b1ef-4f9d-b250-02a126300823" alt="preview"/>
+screenShot : 
+![image](https://user-images.githubusercontent.com/99732661/193410167-84b52b39-7e17-4f48-acd7-ed7ddef7cc3e.png)
+
