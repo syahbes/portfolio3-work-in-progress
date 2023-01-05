@@ -1,10 +1,6 @@
 import * as React from "react";
 import { Routes, Route, } from "react-router-dom";
-//Link
-
-import {
-  Home,About,Skills,Portfolio,Contact,Layout,NoPage
-} from "./components";
+import { Home,About,Skills,Portfolio,Contact,Layout,NoPage } from "./components";
 
 function App() {
   return (

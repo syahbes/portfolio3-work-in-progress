@@ -19,9 +19,7 @@ import KeyboardArrowUpIcon from "@mui/icons-material/KeyboardArrowUp";
 import Fade from "@mui/material/Fade";
 
 const drawerWidth = 240;
-const navItems = ["Home", "About", 
-"Skills", 
-"Portfolio", "Contact"];
+const navItems = ["Home", "About", "Skills", "Portfolio", "Contact"];
 
 function ScrollTop(props) {
   const { children, window } = props;
@@ -35,7 +33,7 @@ function ScrollTop(props) {
     const anchor = (event.target.ownerDocument || document).querySelector(
       "#back-to-top-anchor"
     );
-//    console.log(anchor)
+    //    console.log(anchor)
     if (anchor) {
       anchor.scrollIntoView({
         block: "start",
@@ -54,7 +52,6 @@ function ScrollTop(props) {
     </Fade>
   );
 }
-
 
 function Layout(props) {
   const { window } = props;
@@ -98,9 +95,9 @@ function Layout(props) {
     window !== undefined ? () => window().document.body : undefined;
 
   return (
-    <Box sx={{ display: "flex" , overflowX: "hidden" }} id="back-to-top-anchor">
-      <AppBar component="nav" sx={{ backgroundColor: "primary.dark"  }}>
-        <Toolbar >
+    <Box sx={{ display: "flex", overflowX: "hidden" }} id="back-to-top-anchor">
+      <AppBar component="nav" sx={{ backgroundColor: "primary.dark" }}>
+        <Toolbar>
           <IconButton
             color="inherit"
             aria-label="open drawer"
@@ -151,10 +148,16 @@ function Layout(props) {
           {drawer}
         </Drawer>
       </Box>
-      <Box component="main" sx={{ p: 0  , width: "100vw"  }}>
+      <Box component="main" sx={{ p: 0, width: "100vw" }}>
         <Toolbar />
-<Box sx={{ display: "flex", justifyContent: "center" , alignItems: "center"}}>
-        <Outlet />
+        <Box
+          sx={{
+            display: "flex",
+            justifyContent: "center",
+            alignItems: "center",
+          }}
+        >
+          <Outlet />
         </Box>
       </Box>
       <ScrollTop {...props}>

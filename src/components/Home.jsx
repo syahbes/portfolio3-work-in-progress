@@ -19,7 +19,7 @@ import { Link } from "react-router-dom";
 
 const Home = () => {
   return (
-    <Box>
+    <Box >
       <Box
         className="bg"
         sx={{
