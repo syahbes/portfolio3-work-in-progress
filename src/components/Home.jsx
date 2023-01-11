@@ -19,12 +19,16 @@ import { Link } from "react-router-dom";
 
 const Home = () => {
   return (
-    <Box >
+    <Box sx={{ height: "100%" }}>
       <Box
         className="bg"
         sx={{
           color: "text.secondary",
           p: 5,
+          height: "100vh",
+          position: "absolute",
+          top: 0,
+          left: 0,
         }}
       >
         <Typography variant="h3" gutterBottom>

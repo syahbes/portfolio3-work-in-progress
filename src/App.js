@@ -4,8 +4,6 @@ import { Home,About,Skills,Portfolio,Contact,Layout,NoPage } from "./components"
 
 function App() {
   return (
-    <div className="App">
-    {/* <h1>Welcome to React Router! kind of header?</h1> */}
     <Routes>
       <Route path="/" element={<Layout />}>
       <Route index element={<Home />} />     
@@ -17,7 +15,6 @@ function App() {
       <Route path="*" element={<NoPage />} />
       </Route>
     </Routes>
-  </div>
   );
 }
 

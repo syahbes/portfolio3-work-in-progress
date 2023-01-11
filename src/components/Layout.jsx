@@ -148,13 +148,15 @@ function Layout(props) {
           {drawer}
         </Drawer>
       </Box>
-      <Box component="main" sx={{ p: 0, width: "100vw" }}>
+      <Box component="main" sx={{ p: 0, width: "100vw"}}>
         <Toolbar />
         <Box
           sx={{
             display: "flex",
             justifyContent: "center",
             alignItems: "center",
+            
+            // height: "100vh"
           }}
         >
           <Outlet />
